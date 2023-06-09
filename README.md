@@ -1,0 +1,1 @@
+# NvChad customization in mac
