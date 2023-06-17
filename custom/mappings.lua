@@ -25,6 +25,17 @@ M.tabufline = {
   },
 }
 
+M.telescope = {
+  n = {
+    -- find
+    ["<leader>fg"] = { "<cmd> Telescope git_files <CR>", "Find files tracked by Git" },
+
+    -- git
+    ["<leader>gc"] = { "<cmd> Telescope git_commits <CR>", "Git commits" },
+    ["<leader>gb"] = { "<cmd> Telescope git_branches <CR>", "Git branches" },
+  },
+}
+
 -- more keybinds!
 
 return M
