@@ -10,5 +10,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Luacheck linter
-        uses: lunarmodules/luacheck@v1
+      - name: Lua formatter
+        uses: JohnnyMorganz/stylua-action@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest # NOTE: we recommend pinning to a specific version in case of formatting changes
+          # CLI arguments
+          args: --check . --indent-width 2 --indent-type Spaces
