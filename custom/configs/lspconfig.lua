@@ -13,5 +13,5 @@ for _, lsp in ipairs(servers) do
   }
 end
 
---
+-- Example for individual setup
 -- lspconfig.pyright.setup { blabla}
