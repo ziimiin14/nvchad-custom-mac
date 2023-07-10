@@ -1,4 +1,4 @@
-# NvChad customization in mac
+# Neovim customization(NaChad framework) in Mac
 
 ### Project Description
 
